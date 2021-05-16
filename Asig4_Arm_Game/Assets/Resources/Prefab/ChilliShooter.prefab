@@ -162,3 +162,5 @@ MonoBehaviour:
   GunPoint: {fileID: 630743661681235170}
   atkCd: 2
   atkForce: 1500
+  Aiming: 1
+  NormalGrava: 0
