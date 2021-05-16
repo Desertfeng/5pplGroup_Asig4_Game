@@ -16,6 +16,8 @@ public class Gun : MonoBehaviour
     float atkForce;
     [SerializeField]
     bool Aiming;
+    [SerializeField]
+    bool NormalGrava;
 
     float atkCDTimer =0;
 
@@ -39,6 +41,12 @@ public class Gun : MonoBehaviour
         else
             this.transform.up = Vector2.down;
         
+        if(NormalGrava)
+        {
+            this.transform.up = Vector2.left;
+            atkForce = 150;
+
+        }
     }
 
     void shoot()
