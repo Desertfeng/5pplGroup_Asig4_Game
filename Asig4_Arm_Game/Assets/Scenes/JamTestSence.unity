@@ -3139,6 +3139,8 @@ MonoBehaviour:
   GunPoint: {fileID: 201488976}
   atkCd: 2
   atkForce: 1500
+  Aiming: 0
+  NormalGrava: 0
 --- !u!212 &2140555268
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3270,11 +3272,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ChilliShooter
-      objectReference: {fileID: 0}
-    - target: {fileID: 630743662567901233, guid: 6685c316fcc0bbd43b60fb99d5e89921,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 630743662567901235, guid: 6685c316fcc0bbd43b60fb99d5e89921,
         type: 3}
