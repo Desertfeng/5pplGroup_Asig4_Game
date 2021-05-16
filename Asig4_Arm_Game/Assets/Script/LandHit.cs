@@ -26,7 +26,7 @@ public class LandHit : MonoBehaviour, ILandHit
 
     public void Hit()
     {
-        Debug.Log("imhitting" +centerController.stateMachine.getCurState());
+
         StartCoroutine(landHitingProcess());
     }
 

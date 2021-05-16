@@ -47,7 +47,7 @@ public class HitBox : MonoBehaviour
     {
 
 
-        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Gate" || collision.gameObject.tag == "Jam")
+        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Gate" || collision.gameObject.tag == "Jam" || collision.gameObject.tag == "Umberella")
         {   beHit();
             updateMaxVelo(rig.velocity);
             hitPosBuffer = this.transform.position;
@@ -57,7 +57,7 @@ public class HitBox : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Gate"|| collision.gameObject.tag == "Jam")
+        if (collision.gameObject.tag == "Wall" || collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Monster" || collision.gameObject.tag == "Gate"|| collision.gameObject.tag == "Jam"|| collision.gameObject.tag == "Umberella")            
             leaveHit();
     }
 

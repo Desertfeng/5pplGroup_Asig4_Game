@@ -39,7 +39,7 @@ public class SlimeArm : MonoBehaviour, ISlimeArm
     {
         if (!isGrabMode)
             return;
-        if (collision.gameObject.tag == "Wall"|| collision.gameObject.tag == "PlatForm")
+        if (collision.gameObject.tag == "Wall"|| collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Umberella")
         {
             GrabThing(collision.gameObject.GetComponent<Rigidbody2D>());
         }

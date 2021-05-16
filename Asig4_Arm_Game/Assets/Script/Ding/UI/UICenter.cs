@@ -23,7 +23,7 @@ public class UICenter : MonoBehaviour
         destroyJamShower();
         GameObject a = Instantiate(JamShowerPrefab);
        jamShower =a.GetComponent<JamShower>();
-        Debug.Log(jamShower);
+
         jamShower.beCreat(centerController);
     }
     public void destroyJamShower()

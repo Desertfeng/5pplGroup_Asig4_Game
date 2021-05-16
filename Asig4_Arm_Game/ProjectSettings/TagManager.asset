@@ -9,6 +9,7 @@ TagManager:
   - Arm
   - Monster
   - Jam
+  - Umberella
   layers:
   - Default
   - TransparentFX

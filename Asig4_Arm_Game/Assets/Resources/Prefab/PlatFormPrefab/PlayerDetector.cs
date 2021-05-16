@@ -16,7 +16,7 @@ public class PlayerDetector : MonoBehaviour
        
         if(myRig!=null&&playerBody!=null)
         {
-            Debug.Log("set");
+
           //  playerBody.velocity += myRig.velocity;
         }
     }
