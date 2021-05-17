@@ -15,11 +15,13 @@ public class SlimeArm : MonoBehaviour, ISlimeArm
         if (GrabJoint!=null)
         { return; }
         GrabJoint =this.gameObject.AddComponent<HingeJoint2D>();
+        if(rigidbody2D!=null)
         GrabJoint.connectedBody = rigidbody2D;
         GrabJoint.anchor = new Vector2(0, 4.68f);
         massBuffer = centerController.getRig().mass;
         centerController.getRig().mass = 1;
-        centerController.gameObject.transform.SetParent(rigidbody2D.gameObject.transform);
+        if (rigidbody2D != null)
+            centerController.gameObject.transform.SetParent(rigidbody2D.gameObject.transform);
     }
     
     public bool isGrabingThing()
@@ -41,6 +43,7 @@ public class SlimeArm : MonoBehaviour, ISlimeArm
             return;
         if (collision.gameObject.tag == "Wall"|| collision.gameObject.tag == "PlatForm" || collision.gameObject.tag == "Umberella")
         {
+
             GrabThing(collision.gameObject.GetComponent<Rigidbody2D>());
         }
     }
