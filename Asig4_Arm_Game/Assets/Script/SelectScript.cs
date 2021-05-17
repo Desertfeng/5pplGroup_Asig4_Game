@@ -24,7 +24,7 @@ public class SelectScript : MonoBehaviour
     }
 
     public void LoadFive(){
-        SceneManager.LoadScene(6);
+        //SceneManager.LoadScene(6);
     }
 
 }

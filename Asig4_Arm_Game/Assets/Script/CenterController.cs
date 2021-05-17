@@ -342,7 +342,7 @@ public partial class CenterController : MonoBehaviour
     IEnumerator destroyAudio(AudioSource audio)
     {
         while(audio.isPlaying)
-        {
+        {  
             yield return new WaitForSeconds(1f);
         }
         Destroy(audio);
