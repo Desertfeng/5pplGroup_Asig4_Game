@@ -368,6 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cvm1: {fileID: 1948313118}
   bossCvm: {fileID: 1832522400}
+  gate: {fileID: 0}
 --- !u!61 &65966910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3667,7 +3668,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0939809b37d207e4683cc63bcd0760b7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7fbffc2fbff168e40a22240658370c70, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4420,7 +4421,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 2.072072, y: 1}
+    m_SensorSize: {x: 1.7780429, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4837,7 +4838,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 2.072072, y: 1}
+    m_SensorSize: {x: 1.7780429, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
