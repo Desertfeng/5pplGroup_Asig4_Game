@@ -3640,8 +3640,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
 --- !u!1 &1440465150
 GameObject:
   m_ObjectHideFlags: 0
@@ -3769,10 +3767,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of fa951e0 (CabegeAnimation)
-=======
->>>>>>> parent of fa951e0 (CabegeAnimation)
 --- !u!1 &1467614152
 GameObject:
   m_ObjectHideFlags: 0
