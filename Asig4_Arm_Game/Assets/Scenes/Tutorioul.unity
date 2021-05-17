@@ -492,7 +492,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3396,27 +3396,27 @@ PrefabInstance:
     - target: {fileID: 8896438142691745929, guid: 4dfd746f3ee8cdb4696df3a425736329,
         type: 3}
       propertyPath: lockJump
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896438142691745929, guid: 4dfd746f3ee8cdb4696df3a425736329,
         type: 3}
       propertyPath: lockSuperJump
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896438142691745929, guid: 4dfd746f3ee8cdb4696df3a425736329,
         type: 3}
       propertyPath: lockSpatuala
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896438142691745929, guid: 4dfd746f3ee8cdb4696df3a425736329,
         type: 3}
       propertyPath: lockHit
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896438142691745929, guid: 4dfd746f3ee8cdb4696df3a425736329,
         type: 3}
       propertyPath: lockCharge
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dfd746f3ee8cdb4696df3a425736329, type: 3}
@@ -4492,7 +4492,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.7777778, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

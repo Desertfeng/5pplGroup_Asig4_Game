@@ -9,6 +9,8 @@ public class CameraSwitch : MonoBehaviour
     CinemachineVirtualCamera cvm1;
     [SerializeField]
     CinemachineVirtualCamera bossCvm;
+    [SerializeField]
+    Gate gate;
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,12 +20,18 @@ public class CameraSwitch : MonoBehaviour
             Debug.Log("cl");
             cvm1.Priority = 0;
             bossCvm.Priority = 1;
-
-
-
+        }
+    }
+    private void Update()
+    {
+        if(gate.isOpened)
+        {
+            cvm1.Priority = 1;
+            bossCvm.Priority = 0;
 
         }
     }
-    
-   
+
+
+
 }

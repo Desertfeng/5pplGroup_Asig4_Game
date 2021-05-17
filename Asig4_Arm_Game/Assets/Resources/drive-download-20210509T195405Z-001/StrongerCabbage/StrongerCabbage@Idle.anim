@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cabbage@Idle
+  m_Name: StrongerCabbage@Idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -39,26 +39,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 5.1666665
+        time: 5.35
         value: 2
-        inSlope: -30.000029
-        outSlope: -30.000029
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 5.25
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 9.983334
-        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -68,8 +50,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 10
         value: 2
-        inSlope: 40.00023
-        outSlope: 40.00023
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -197,26 +179,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 5.1666665
+        time: 5.35
         value: 2
-        inSlope: -30.000029
-        outSlope: -30.000029
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 5.25
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 9.983334
-        value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -226,8 +190,8 @@ AnimationClip:
       - serializedVersion: 3
         time: 10
         value: 2
-        inSlope: 40.00023
-        outSlope: 40.00023
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334

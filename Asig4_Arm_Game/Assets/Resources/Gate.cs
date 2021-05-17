@@ -6,6 +6,7 @@ public class Gate : MonoBehaviour
 {
     [SerializeField]
     EnemyController[] enemys;
+    public bool isOpened;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +28,6 @@ public class Gate : MonoBehaviour
     {
         Animator ani = this.GetComponent<Animator>();
         ani.Play("Gate@Open");
-
+        isOpened = true;
     }
 }
