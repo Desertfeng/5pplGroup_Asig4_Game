@@ -2567,6 +2567,16 @@ PrefabInstance:
       propertyPath: NormalGrava
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 630743662567901235, guid: 6685c316fcc0bbd43b60fb99d5e89921,
+        type: 3}
+      propertyPath: atkCd
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 630743662567901235, guid: 6685c316fcc0bbd43b60fb99d5e89921,
+        type: 3}
+      propertyPath: atkForce
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6685c316fcc0bbd43b60fb99d5e89921, type: 3}
 --- !u!1001 &1297490629
