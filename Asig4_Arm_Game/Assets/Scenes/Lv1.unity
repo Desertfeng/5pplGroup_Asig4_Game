@@ -1675,7 +1675,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: befe52bd844139e459afe75071288e80, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4564,6 +4564,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Destenation
       objectReference: {fileID: 0}
+    - target: {fileID: 2310935545697707893, guid: 64c3917b3e8a10243a098236292727aa,
+        type: 3}
+      propertyPath: nextLevelNumber
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7276740957437939821, guid: 64c3917b3e8a10243a098236292727aa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5150,7 +5155,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7780429, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5761,7 +5766,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.3333334, y: 1}
+    m_SensorSize: {x: 1.7780429, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
