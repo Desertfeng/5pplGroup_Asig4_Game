@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public enum AttackPower
@@ -33,6 +34,9 @@ public class EnemyController : MonoBehaviour
 
     [SerializeField]
     GameObject attackArea;
+
+    [SerializeField]
+    bool isBoss;
 
     
     public float CDTimer;
@@ -193,6 +197,8 @@ public class EnemyController : MonoBehaviour
     }
     void beKill()
     {
+        if(isBoss){SceneManager.LoadScene(7);}
+        
         Destroy(this.gameObject);
     }
 }
