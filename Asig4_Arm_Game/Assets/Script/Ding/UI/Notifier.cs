@@ -25,6 +25,8 @@ public class Notifier : MonoBehaviour
 
     public void beCreat(string s ,Color color)
     {
+        Debug.Log("notify");
+        this.gameObject.GetComponentInParent<Canvas>().sortingLayerName = "UI";
         ani = this.GetComponent<Animator>();
         this.notice = s;
         Text text = this.GetComponentInChildren<Text>();
