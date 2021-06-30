@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -435,7 +435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79810903}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -9, z: -768.3789}
+  m_LocalPosition: {x: 0, y: -9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2376,7 +2376,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 0
-    m_SensorSize: {x: 1.7780429, y: 1}
+    m_SensorSize: {x: 1.7774295, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -2977,7 +2977,7 @@ PrefabInstance:
     - target: {fileID: 2325922774688637083, guid: bda18be35c59acd4ca6fbf0990812d60,
         type: 3}
       propertyPath: message
-      value: Climb to the top
+      value: Climb to the top, beware of the red platforms
       objectReference: {fileID: 0}
     - target: {fileID: 2325922774688637083, guid: bda18be35c59acd4ca6fbf0990812d60,
         type: 3}
