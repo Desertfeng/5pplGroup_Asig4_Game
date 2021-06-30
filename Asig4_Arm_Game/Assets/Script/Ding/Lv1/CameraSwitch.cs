@@ -19,7 +19,7 @@ public class CameraSwitch : MonoBehaviour
         {
             Debug.Log("cl");
             cvm1.Priority = 0;
-            bossCvm.Priority = 1;
+            bossCvm.Priority = 1;           
         }
     }
     private void Update()
